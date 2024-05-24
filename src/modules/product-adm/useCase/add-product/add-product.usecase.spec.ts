@@ -16,7 +16,6 @@ describe("Add Product usecase unit test", () => {
     const productRepository = MockRepository();
 
     // usecase
-
     const usecase = new AddProductUseCase(productRepository);
     const input: AddProductInputDto = {
       name: "product1",
