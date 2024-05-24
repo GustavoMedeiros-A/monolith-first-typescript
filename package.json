@@ -1,0 +1,16 @@
+{
+  "name": "monolith-first-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:GustavoMedeiros-A/monolith-first-typescript.git",
+  "author": "GustavoMedeiros-A <gustavomedeiros15@outlook.com.br>",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@types/uuid": "^9.0.8",
+    "uuid": "^9.0.1"
+  }
+}
