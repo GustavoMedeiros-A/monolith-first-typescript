@@ -5,12 +5,19 @@
   "repository": "git@github.com:GustavoMedeiros-A/monolith-first-typescript.git",
   "author": "GustavoMedeiros-A <gustavomedeiros15@outlook.com.br>",
   "license": "MIT",
+  "scripts": {
+    "test": "yarn tsc --noEmit && yarn jest"
+  },
   "devDependencies": {
+    "@swc/jest": "^0.2.36",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   },
   "dependencies": {
+    "@swc/core": "^1.5.7",
+    "@types/jest": "^29.5.12",
     "@types/uuid": "^9.0.8",
+    "jest": "^29.7.0",
     "uuid": "^9.0.1"
   }
 }
