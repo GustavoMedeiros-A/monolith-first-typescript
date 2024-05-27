@@ -21,7 +21,7 @@ export default class AddProductUseCase {
 
     // Add the product to database, api, file ...
     const product = new Product(props);
-    this._productRepository.add(product);
+    await this._productRepository.add(product);
 
     return {
       id: product.id.getId,

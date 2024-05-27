@@ -6,18 +6,6 @@ import { ProductRepository } from "./product.repository";
 import { AppDataSource } from "../../@shared/core/datasource";
 import { DataSource } from "typeorm";
 
-// const productArray: ProductModel = [
-//   {
-//     id: new Id("1"),
-//     name: "product1",
-//     description: "Product 1 description",
-//     purchasePrice: 100,
-//     stock: 10,
-//     createdAt: new Date(),
-//     updatedAt: new Date(),
-//   },
-// ];
-
 describe("ProductRepository test", () => {
   let productRepository: ProductRepository;
   let dataSource: DataSource;
